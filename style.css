@@ -1,0 +1,33 @@
+
+body{
+}
+
+.main-container{
+width: 100vw;
+min-height:100vh;
+display:grid;
+place-items: center;
+background: linear-gradient( rgba(75, 190, 210, 0.847),rgba(225, 22, 208, 0.584));
+}
+
+.main-wrapper{
+    margin: 200 auto;
+    border:1px solid rgb(239, 233, 233);
+    box-shadow: 3px 4px 5px rgba(144, 148, 143, 0.806);
+    border-radius:1rem;
+    background-color:rgba(255, 255, 255, 0.904);
+    width:60vw;
+    padding:2rem;
+}
+.page-title{
+    text-align:center;
+    /* text-shadow: 3px 4px 5px gray; */
+    font-weight: 350;
+}
+.reg-form{
+    width:800px;
+    margin:auto;
+}
+.valid-feedback, .invalid-feedback{
+    display:none;
+}
